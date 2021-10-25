@@ -1,0 +1,288 @@
+img {
+  flex-shrink: 2;
+}
+.top {
+  margin: 0 7% 0 7%;
+  height: 300px;
+}
+
+.main-content {
+  /* will need to be  able to stretch*/
+  margin: 0 7% 0 7%;
+  height: 100%s;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbarTop-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbarMid-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .navbarFoot-container {
+  border-bottom: 2px double black;
+
+} */
+
+.tradingview-widget-container {
+  border: 2px solid white;
+}
+
+button {
+  background-color: steelblue;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  margin: 0 20px 0 0;
+  padding: 0 5px 0 5px;
+}
+
+#topMenu {
+  margin: 0 3% 0 3%;
+  display: flex;
+  flex-direction: row;
+}
+
+#navbarA {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+}
+
+#navbarB {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#navbarC {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 1% 0 1% 0;
+  border-top: 1px solid rgb(224, 218, 218);
+  border-bottom: 5px double black;
+  height: 30px;
+  flex-shrink: 2;
+}
+
+#navbarD {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+
+footer {
+  margin: 0 7% 0 7%;
+  height: 10vh;
+}
+
+h2 {
+  margin: 25px 0 0 25px;
+}
+
+.footer-linksBox1 {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer-links {
+  border-top: 1px solid rgb(201, 197, 197);
+  padding: 2% 0 2% 0;
+  font-weight: 600;
+}
+
+.footer-link {
+  border-top: 1px solid rgb(189, 187, 187);
+
+  border-bottom: 1px solid rgb(192, 190, 190);
+  padding: 2% 0 2% 0;
+  font-weight: 600;
+}
+
+#copyRight {
+  display: flex;
+  justify-content: center;
+}
+
+#blurbs {
+  word-wrap: break-word;
+  margin: 0 0 0 25px;
+}
+
+#photos {
+  width: 80%;
+  height: 200px;
+  padding: 5%;
+}
+
+#aSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  word-wrap: break-word;
+  height: 70%;
+  flex-direction: column;
+  width: 600px;
+  padding: 0% 3% 2% 0;
+  /* border-bottom: 1px solid rgb(2, 2, 2); */
+}
+
+#cooking {
+  border-top: 2px solid rgb(0, 0, 0);
+}
+
+#brs {
+  display: flex;
+  flex-direction: row;
+}
+
+#cookingBox {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border-bottom: 2px solid black; */
+
+  /* padding: 20px 0 20px 0; */
+}
+
+#cookingBox2 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+
+  padding: 20px 0 20px 0;
+}
+
+#boxItem {
+  margin-left: 10px;
+}
+
+#cookingImg {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+#cookingImg2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#bSide1 {
+  width: 40%;
+  height: 70%;
+  /* border-bottom: 1px solid grey; */
+  margin: 0;
+  padding: 0 0 0 5px;
+  border-left: 1px solid grey;
+  flex-direction: column;
+}
+
+#dHorrible {
+  width: 90%;
+  height: 50%;
+  border-radius: 50%;
+  border: 5px solid rgb(149, 146, 146);
+  margin-right: 10px;
+}
+
+#bWhite {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid rgb(192, 192, 192);
+  margin-right: 10px;
+}
+
+#cBrown {
+  width: 80px;
+  height: 50%;
+  border-radius: 50%;
+  border: 5px solid rgb(60, 59, 59);
+  margin-right: 10px;
+}
+
+#krunk {
+  width: 70px;
+  height: 70%;
+  border-radius: 50%;
+  border: 5px solid grey;
+  margin-right: 10px;
+}
+
+#profileImg {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.opTitle {
+  margin-bottom: 0;
+}
+
+.opList {
+  list-style: none;
+  margin: 5px;
+  border-bottom: 2px solid grey;
+  justify-content: space-between;
+}
+
+#op4Box {
+  display: flex;
+  flex-direction: row;
+}
+
+#op4Item {
+  display: flex;
+  flex-direction: column;
+}
+
+#side {
+  border-top: 1px solid rgb(189, 187, 187);
+  list-style: none;
+  border-bottom: 1px solid rgb(2, 2, 2);
+  padding: 2% 0 2% 0;
+  font-weight: 600;
+}
+
+.xCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#opera {
+  margin-left: 30px;
+}
+
+#borderBox {
+  border-top: 2px solid black;
+  padding-right: 10px;
+}
